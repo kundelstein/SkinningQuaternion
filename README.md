@@ -15,6 +15,12 @@ The quaternions are used through the entire code and are never converted to matr
 Using a pair of quaternion - translation uses half of the uniform space to describe the joints positions. This enables to double the number of joints but limits the capabilities of the presentation. There is no skew nor size changing available. There is a simple way to use empty position uniform (pos.w) value to describe some additional behavior, for example, bone scale. 
 
 
+## Formats
+
+- Doom 3 (id Tech 4) MD5
+- Spine 2d JSON (soon, wip)
+
+
 ## Issues
 
 - The code around this example was made very quickly using borrowed parts from here and there. Do not use it in production or clowns will eat you.
