@@ -10,6 +10,11 @@ To demonstrate the simplicity of this solution, I wrote this example.
 The quaternions are used through the entire code and are never converted to matrices. The inverse bone data is used in quaternion - translation form. The animation is interpolated between the animation frames using quaternions. The shader code calculates the skinning based on weights in exactly same way matrices, only using quaternions. 
 
 
+## Screenshots
+
+![Screenshot](screen.png)
+
+
 ## Info
 
 Using a pair of quaternion - translation uses half of the uniform space to describe the joints positions. This enables to double the number of joints but limits the capabilities of the presentation. There is no skew nor size changing available. There is a simple way to use empty position uniform (pos.w) value to describe some additional behavior, for example, bone scale. 
